@@ -1,5 +1,11 @@
 # Cargar src
-try:
-    from src.functions.handlers.fileHandler import *
-except:
-    print("Unexceptred exception")
+from src.functions.handlers import *
+
+# Imprimir info
+print(f"Root directory: {ROOT_DIR}")
+
+# Cargar ibrerias
+import PySimpleGUI as sg
+
+# Crear layout vacio
+layout = []
