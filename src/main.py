@@ -2,17 +2,20 @@
 import PySimpleGUI as sg
 
 # Cargar src
-from src.functions.handlers.fileHandler import *
-from src.functions.handlers.jsonHandler import *
+try:
+    from src.functions.handlers.loggingHandler import *
+    from src.functions.handlers.fileHandler import *
+    from src.functions.handlers.jsonHandler import *
+    from src.functions.handlers.randomQuestionHandler import *
+except Exception as e:
+    logging.error(e)
 
 # Crear layout vacio
 layout = []
 
-# Imprimir info del la tabla json
-for pregunta in QnA:
-    preguntas_len = len(pregunta)
-print(f"Cantidad de preguntas: {preguntas_len}")
-for respuesta in QnA:
-    respuestas_len = len(respuesta)
-print(f"Cantidad de respuestas: {respuestas_len}")
-print(f"Tabla cargada(Raw): {QnA}")
+# Crear dos textos
+layout.append([sg.Text("Tiempo: 0.00",  key="timporizador", size=(20, 1), font=("Helvetica", 20))],)
+layout.append([sg.Text("Preguntas: ", size=(20, 1), font=("Helvetica", 20))],)
+
+# cerrar el archivo de registro
+logging.shutdown()

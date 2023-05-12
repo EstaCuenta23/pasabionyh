@@ -1,12 +1,12 @@
 [
     {
-      "pregunta0": "1+1",
-      "pregunta1": "2+2",
-      "pregunta2": "3+3"
+      "1": "¿Cuál es la capital de España?",
+      "2": "¿En qué año se fundó Facebook?",
+      "3": "¿Quién escribió la novela 'Cien años de soledad'?"
     },
     {
-      "respuesta0": "2",
-      "respuesta1": "4",
-      "respuesta2": "6"
+      "1": "Barcelona",
+      "2": "2004",
+      "3": "Gabriel García Márquez"
     }
   ]
