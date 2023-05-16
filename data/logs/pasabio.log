@@ -1,0 +1,9 @@
+INFO:root:Root directory: G:\Code\bioooooo
+INFO:root:JSON directory: G:\Code\bioooooo\db\json
+INFO:root:QnA directory: G:\Code\bioooooo\db\json\QnA\QnA.json
+INFO:root:Preguntas: {'1': '¿Cuál es la capital de España?', '2': '¿En qué año se fundó Facebook?', '3': "¿Quién escribió la novela 'Cien años de soledad'?", '4': 'Cual enpiesa por la v'}
+INFO:root:Respuestas: {'1': 'Barcelona', '2': '2004', '3': 'Gabriel García Márquez', '4': 'PORtugal'}
+INFO:root:Pregunta 1: ¿Cuál es la capital de España? - Respuesta: Barcelona
+INFO:root:Pregunta 2: ¿Quién escribió la novela 'Cien años de soledad'? - Respuesta: Gabriel García Márquez
+INFO:root:Pregunta 3: ¿En qué año se fundó Facebook? - Respuesta: 2004
+INFO:root:{1: ('¿Cuál es la capital de España?', 'Barcelona'), 2: ("¿Quién escribió la novela 'Cien años de soledad'?", 'Gabriel García Márquez'), 3: ('¿En qué año se fundó Facebook?', '2004')}
