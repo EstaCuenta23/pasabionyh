@@ -8,8 +8,8 @@ try:
     from src.functions.handlers.fileHandler import *
     from src.functions.handlers.jsonHandler import *
     from src.functions.handlers.randomQuestionHandler import *
-except Exception as error:
-    logging.error(error)
+except Exception as e:
+    logging.error(e)
 
 # Crear layout vacio
 layout = []
@@ -23,6 +23,8 @@ for preguntaRandom in randomQuestions:
     i =+ 1
     layout.append([sg.Text(preguntaRandom, size=(20, 1), font=("Helvetica", 20))],)
     layout.append([sg.InputText(key=f"input{i}", size=(20, 1), font=("Helvetica", 20))],)
-    
+
+while True
+
 # Cerrar el archivo de registro
 logging.shutdown()
